@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/normalize.css">
+	<link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" 
+                           integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" 
+                           crossorigin="anonymous">
+    <title>Sociotrack</title>
+</head>
+<body>
+    <header class="header">
+        <div class="header__logo">
+            <img src="img/logo.svg" alt="logo">
+        </div>
+        <div class="header__menu">
+            <div class="header__icon">
+                <img src="img/notification-icon.svg" alt="bell" class="header__icon--image">
+                <span class="header__icon--notif">2</span>
+            </div>
+            <div class="header__icon">
+                <img src="img/search-icon.svg" alt="search" class="header__icon--image">
+            </div>
+        </div>
+    </header>
+    <aside class="sidebar">
+        <div>
+            <div class="sidebar__profile">
+                <img src="img/avatar_1.jpg" alt="photo" class="sidebar__profile--photo">
+                <div class="sidebar__profile--info">
+                    <h2 class="sidebar__profile--name">Abhisek Das
+                        <i class="fas fa-angle-down sidebar__profile--more"></i>
+                    </h2>
+                    <p class="sidebar__profile--follovers">10,968 Follovers</p>
+                </div>
+            </div>
+            <nav class="sidebar__menu">
+                    <ul>
+                        <li class="menu__element">
+                            <img src="img/dashboard-icon.svg" alt="icon" class="menu__icon">
+                            <a href="#" class="menu__link">dashboard</a>
+                        </li>
+                        <li class="menu__element">
+                            <img src="img/social-feed-icon.svg" alt="icon" class="menu__icon">
+                            <a href="#" class="menu__link">social feed</a>
+                        </li>
+                        <li class="menu__element">
+                            <img src="img/invite-friends-icon.svg" alt="icon" class="menu__icon">
+                            <a href="#" class="menu__link">invite friends</a>
+                        </li>
+                        <li class="menu__element">
+                                <img src="img/settings-icon.svg" alt="icon" class="menu__icon">
+                            <a href="#" class="menu__link">settings</a>
+                        </li>
+                        <li class="menu__element">
+                                <img src="img/log-out-icon.svg" alt="icon" class="menu__icon">
+                            <a href="#" class="menu__link">log out</a>
+                        </li>
+                    </ul>
+            </nav>
+        </div>
+        <div class="sidebar__footer">
+            <ul class="footer">
+                <li class="footer__element"><a href="#" class="footer__element--link">About</a></li>
+                <li class="footer__element"><a href="#" class="footer__element--link">Terms</a></li>
+                <li class="footer__element"><a href="#" class="footer__element--link">Privacy</a></li>
+                <li class="footer__element"><a href="#" class="footer__element--link">Help</a></li>
+                <li class="footer__element"><a href="#" class="footer__element--link">Report</a></li>
+            </ul>
+        </div>
+    </aside>
+    <main class="page">
+        <div class="page__wrap">
+            <div class="page__top">
+                <h1 class="username">@abhisek.das</h1>
+                <button class="addSocialButton">+ add social profile</button>
+            </div>
+            <div class="page__menu">
+                <ul>
+                    <li class="page__menu--switch"><a href="#" class="page__menu--link">Last day</a></li>
+                    <li class="page__menu--switch"><a href="#" class="page__menu--link">Week</a></li>
+                    <li class="page__menu--switch"><a href="#" class="page__menu--link">Month</a></li>
+                </ul>
+            </div>
+            <div class="dashboard">
+                <div class="social-item">
+                    <a href="#" class="social-item__box facebook">
+                        <div class="social-item__container">
+                            <i class="fab fa-facebook social-item__icon"></i>
+                            <div>
+                                <p class="social-item__number">1,701</p>
+                                <p class="social-item__number-label">followers</p>
+                            </div>
+                            <span class="social-item__stat">+4 <i class="fas fa-long-arrow-alt-up"></i></span>
+                        </div>
+                    </a>
+                    <div>
+                        <img src="img/avatar_2.png" alt="avatar" class="social-item__avatar">
+                        <div class="social-item__description">
+                            <p class="social-item__network">Facebook</p>
+                            <a class="social-item__nicname" href="#">@abhisek.daas</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="social-item">
+                    <a href="#" class="social-item__box twitter">
+                        <div class="social-item__container">
+                            <i class="fab fa-twitter social-item__icon"></i>
+                            <div>
+                                <p class="social-item__number">1,567</p>
+                                <p class="social-item__number-label">followers</p>
+                            </div>
+                            <span class="social-item__stat">-3 <i class="fas fa-long-arrow-alt-down"></i></span>
+                        </div>
+                    </a>
+                    <div>
+                        <img src="img/avatar_5.png" alt="avatar" class="social-item__avatar">
+                        <div class="social-item__description">
+                            <p class="social-item__network">Twitter</p>
+                            <a class="social-item__nicname" href="#">@wholetthedasout</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="social-item">
+                    <a href="#" class="social-item__box instagram">
+                        <div class="social-item__container">
+                            <i class="fab fa-instagram"></i>
+                            <div>
+                                <p class="social-item__number">1,139</p>
+                                <p class="social-item__number-label">followers</p>
+                            </div>
+                            <span class="social-item__stat">+11 <i class="fas fa-long-arrow-alt-up"></i></span>
+                        </div>
+                    </a>
+                    <div>
+                        <img src="img/avatar_1.jpg" alt="avatar" class="social-item__avatar">
+                        <div class="social-item__description">
+                            <p class="social-item__network">Instagram</p>
+                            <a class="social-item__nicname" href="#">@wholetthedasout</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="social-item">
+                    <a href="#" class="social-item__box linkedin">
+                        <div class="social-item__container">
+                            <i class="fab fa-linkedin-in"></i>
+                            <div>
+                                <p class="social-item__number">2,016</p>
+                                <p class="social-item__number-label">followers</p>
+                            </div>
+                            <span class="social-item__stat">+39 <i class="fas fa-long-arrow-alt-up"></i></span>
+                        </div>
+                    </a>
+                    <div>
+                        <img src="img/avatar_2.png" alt="avatar" class="social-item__avatar">
+                        <div class="social-item__description">
+                            <p class="social-item__network">LinkedIn</p>
+                            <a class="social-item__nicname" href="#">@abhisekd3</a>
+                        </div>
+                    </div>
+                </div>
+        
+                <div class="social-item">
+                    <a href="#" class="social-item__box youtube">
+                        <div class="social-item__container">
+                            <i class="fab fa-youtube"></i>
+                            <div>
+                                <p class="social-item__number">3,190</p>
+                                <p class="social-item__number-label">subscribers</p>
+                            </div>
+                            <span class="social-item__stat">+22 <i class="fas fa-long-arrow-alt-up"></i></span>
+                        </div>
+                    </a>
+                    <div>
+                        <img src="img/avatar_3.jpg" alt="avatar" class="social-item__avatar">
+                        <div class="social-item__description">
+                            <p class="social-item__network">YouTube</p>
+                            <a class="social-item__nicname" href="#">@TheSbhisekD</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="social-item">
+                    <a href="#" class="social-item__box snapchat">
+                        <div class="social-item__container">
+                            <i class="fab fa-snapchat-ghost"></i>
+                            <div>
+                                <p class="social-item__number">8,754</p>
+                                <p class="social-item__number-label">snap score</p>
+                            </div>
+                            <span class="social-item__stat hidden">+4 <i class="fas fa-long-arrow-alt-up"></i></span>
+                        </div>
+                    </a>
+                    <div>
+                        <img src="img/avatar_1.jpg" alt="avatar" class="social-item__avatar">
+                        <div class="social-item__description">
+                            <p class="social-item__network">Snapchat</p>
+                            <a class="social-item__nicname" href="#">@abhisekd</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="social-item">
+                    <a href="#" class="social-item__box google">
+                        <div class="social-item__container">
+                            <i class="fab fa-google-plus-g"></i>
+                            <div>
+                                <p class="social-item__number">1,033</p>
+                                <p class="social-item__number-label">followers</p>
+                            </div>
+                            <span class="social-item__stat hidden">+4 <i class="fas fa-long-arrow-alt-up"></i></span>
+                        </div>
+                    </a>
+                    <div>
+                        <img src="img/avatar_1.jpg" alt="avatar" class="social-item__avatar">
+                        <div class="social-item__description">
+                            <p class="social-item__network">Google+</p>
+                            <a class="social-item__nicname" href="#">@+AbhisekDas</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="social-item">
+                    <a href="#" class="social-item__box vine">
+                        <div class="social-item__container">
+                            <i class="fab fa-vine"></i>
+                            <div>
+                                <p class="social-item__number">1,045</p>
+                                <p class="social-item__number-label">loops</p>
+                            </div>
+                            <span class="social-item__stat hidden">+4 <i class="fas fa-long-arrow-alt-up"></i></span>
+                        </div>
+                    </a>
+                    <div>
+                        <img src="img/avatar_4.png" alt="avatar" class="social-item__avatar">
+                        <div class="social-item__description">
+                            <p class="social-item__network">Vine</p>
+                            <a class="social-item__nicname" href="#">@1316139228245221376</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- modal window -->
+
+    <div id="wrapper">
+        <div class="cover"></div>
+        <div class="modal">
+            <div class="modal-flex">
+                <button class="btn-close close fas fa-times"></button>
+                <h3 class="modal__title">Add Social Profile</h3>
+                <p class="modal__text">Add new social profile for tracking</p>
+                <form>
+                    <label for="profile_url" class="modal__label">url</label>
+                    <input id="profile_url"
+                           class="modal__input" 
+                           type="url" 
+                           placeholder="https://twitter.com/username">
+                </form>
+                <button class="modal__submit close" type="submit">Lookup</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<script src="js/main.js"></script>
+</body>
+</html>
